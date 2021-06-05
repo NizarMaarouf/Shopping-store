@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome CSS Responsive Navigation menus  </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" href="/css/home.css">
 </head>
 <body>
@@ -14,6 +16,7 @@
                 <form>
                     <input type ="text" name ="search" id ="search" placeholder="Search">
                     <button type ="submit"><i class="fa fa-search"></i></button>
+
                 </form>
             </div>
             <ul>
@@ -25,7 +28,7 @@
                <a href="/pages/cosmetics.html">Cosmetics</a>
                <a href="/pages/login.html">Login</a>
                <div class="dropdown">
-              <button class="dropbtn"><i>&#x267f; </i></button>
+              <button class="dropbtn"><i><img src="https://img.icons8.com/color/48/000000/accessibility1.png"/></i></button>
               <div class="dropdown-content">
                <a href="/index.html">Home</a>
                <a href="/pages/perfumes.html">perfumes</a>
@@ -38,5 +41,27 @@
                </div>
             </ul>
     </header>
+ <div class="contrastForm">
+     <div>
+    <button type="button" onclick="myFunction1()" class="js-font1" data-size="big"><i class="fas fa-font"></i></button>
+    <button type="button" onclick="myFunction2()"  class="js-font2" data-size="normal"><i class="fas fa-font"></i></button>
+    <button type="button" onclick="myFunction3()"  class="js-font3" data-size="small"><i class="fas fa-font"></i></button>
+     </div>
+
+		<div  id="demo" class="container">
+            <p>WELCOME TO MY WEBSITE !<br><br> THIS IS MY HOME PAGE</p>
+
+		</div>
+<script>
+function myFunction1() {
+  document.getElementById("demo").style.fontSize = "x-large";
+}
+function myFunction2() {
+  document.getElementById("demo").style.fontSize = "medium";
+}
+function myFunction3() {
+  document.getElementById("demo").style.fontSize = "x-small";
+}
+</script>
 </body>
 </html>

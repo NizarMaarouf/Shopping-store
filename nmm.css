@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:18px;
+  text-decoration: none solid rgba(51,51,51);
+  word-spacing: 0px;
+
+}
+form{
+  display: block;
+  height:175px;
+  width:700px;
+  transform: none;
+  transition: all 0s ease 0s;
+  outline: rgb(255,0,0) ;
+}
+fieldset{
+display: inline-block;
+width:189px;
+height:138px;
+min-width: min-content;
+padding:10px 10px 10px 10px;
+margin:0 10px 10px 0;
+border:1px solid #cccccc;
+background:0% 0%;
+position:color;
+background-color: #ffffff;
+transform: none;
+transition: all 0s ease 0s;
+outline: rgb(255,0,0) dashed 1px;
+border-top-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+a {
+	 text-decoration: none;
+}
+ .container {
+	 max-width: 1400px;
+	 margin: auto;
+}
+ #primary-nav {
+	 display: grid;
+	 grid-template-columns: max-content 1fr;
+	 align-items: baseline;
+}
+ #primary-nav .container {
+	 padding: 0 10px;
+}
+ #primary-nav ul {
+	 background-color: #262262;
+	 grid-template-columns: repeat(auto-fit, minmax(91px, 1fr));
+	 display: grid;
+	 align-content: center;
+	 grid-column-gap: 9px;
+	 grid-row-gap: 10px;
+}
+ @media (min-width: 848px) {
+	 #primary-nav ul {
+		 display: grid;
+	}
+}
+ #primary-nav ul li a {
+	 color: #fff;
+	 text-transform: uppercase;
+	 display: block;
+	 text-align: center;
+	 padding: 10px;
+	 transition: 0.4s ease-in;
+	 font-family: 'Roboto', sans-serif;
+}
+ #primary-nav ul li a:hover, #primary-nav ul li a:focus {
+	 background: #090816;
+}
+ #primary-nav ul li a:active {
+	 border: 2px solid lime;
+}
+ .logo {
+	 max-width: 62px;
+	 padding: 1em;
+}
+ .main-nav {
+	 background: #262262;
+	 grid-column: 1 / span 2;
+}
+ #hamburger {
+	 margin: 1em;
+	 justify-self: end;
+	 display: block;
+	 background: #fff;
+	 border: none;
+	 font-size: 1.2em;
+	 line-height: 1;
+}
+ #hamburger #expanded {
+	 display: none;
+}
+ #hamburger svg {
+	 width: 3em;
+	 height: 3em;
+	 background: white;
+}
+ #hamburger span {
+	 display: block;
+	 position: relative;
+	 top: 15px;
+}
+ @media (min-width: 848px) {
+	 #hamburger {
+		 display: none;
+	}
+}
+ #hamburger[aria-expanded='true'] {
+	 color: #000;
+}
+ #hamburger[aria-expanded='true'] svg {
+	 background: #262262;
+	 fill: white;
+}
+ #hamburger[aria-expanded='true'] span {
+	 position: static;
+}
+ #hamburger[aria-expanded='true'] #expanded {
+	 display: block;
+}
+ #hamburger[aria-expanded="true"] + .main-nav {
+	 display: block;
+}
+ .js-enabled .main-nav {
+	 display: none;
+}
+ @media (min-width: 848px) {
+	 .js-enabled .main-nav {
+		 display: block;
+	}
+}
+ 

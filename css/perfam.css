@@ -9,6 +9,33 @@ background-color: #f58634;
 
 
 }
+.js-font2 {
+  background-color: #04009a;
+  color:#fff;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.js-font1 {
+  background-color: #04009a;
+  color:#fff;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 1px 5px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.js-font3 {
+  background-color: #04009a;
+  color:#fff;
+  font-size: 10px;
+  cursor: pointer;
+  padding: 1px 5px;
+  border-radius: 10px;
+  font-weight: 700;
+}
 header{
   background-color: #1b2021;
     width:100%;
@@ -145,7 +172,7 @@ section .heading b {
   color: #fff;
 }
 .wrapper {
-   margin: 10rem 0;
+  margin: 7rem 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -154,8 +181,7 @@ section .heading b {
 }
 .wrapper .container {
   position: relative;
-  width: 300px;
-  height: 33.5rem;
+  width: 20rem;
   color: #fff;
   background: #00303f;
   margin: 40px 10px;
@@ -252,8 +278,27 @@ section .heading b {
   background-color: #ec4646;
   color:white;
 }
+.btn1 {
+  border: none;
+  outline: 0;
+  padding: 2px;
+  color:#fff;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  font-size: 14px;
+  border-radius: 15px;
+  margin-top: 0px;
+}
+
+.btn1:hover {
+  background-color: #ec4646;
+  color:white;
+}
 h1.price {
   color: green;
   font-size: 22px;
   margin-top: 10rem;
+  margin-bottom: 1rem;
 }
