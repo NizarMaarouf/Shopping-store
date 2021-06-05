@@ -99,21 +99,21 @@ button.dropbtn {
   border-radius: 1rem;
 }
 .dropdown-content {
-  background-color: #111;
+  background-color: #04009a;
   display: none;
   position: absolute;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   right:0.5rem;
-  top:2.8rem;
+  top:2.7rem;
 }
 .dropdown-content a {
   color: #fff;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
 
 }
