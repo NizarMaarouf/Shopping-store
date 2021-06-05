@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+margin: 0;
+padding: 0;
+background-image: url("/img/rin2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+header{
+    background-color: #1b2021;
+    width:100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    position: fixed;
+    color:#fff;
+    font-size: 1.1rem;
+}
+header .logo{
+    flex: 1;
+    color:#fff;
+    text-shadow: 0 0 2px #000;
+    margin-left: 50px;
+}
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+.search-box{
+  margin-right: 2rem;
+}
+
+.search-box input{
+    width:100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background:#444;
+    border-radius: 30px;
+    color:whitesmoke;
+    font-size: 1.4rem;
+    padding-left: 5px;
+    padding-right: 40px;
+}
+.search-box button{
+    cursor: pointer;
+    width:40px;
+    height: 40px;
+    border-radius: 30px;
+    border:none;
+    position: absolute;
+    top:0;
+    right: 0;
+    transform: scale(0.9);
+}
+header ul {
+    flex:2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+header a:hover{
+    border-bottom: 2px solid cadetblue;
+}
+
+button.dropbtn {
+  background-color: #1b2021;
+  padding: 0;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn i{
+  position: relative;
+  top: 0rem;
+  font-size: 2rem;
+  right:0.5rem;
+  border-radius: 1rem;
+}
+.dropdown-content {
+  background-color: #111;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right:0.5rem;
+  top:2.8rem;
+}
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+
+}
+
+.dropdown-content a:hover {background-color: #111;}
+
+.dropdown:hover .dropdown-content {display: block;}
