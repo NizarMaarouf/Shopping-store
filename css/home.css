@@ -16,6 +16,7 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
+/*-----------עבור בכפתורי הגדלה -----------*/
 .js-font2 {
   background-color: #04009a;
   color:#fff;
@@ -60,6 +61,7 @@ background-size: cover;
   background-color: #05009aab;
   padding: 1rem;
 }
+/*-----------header header----------------------*/
 header{
     background-color: #1b2021;
     width:100%;
@@ -85,6 +87,7 @@ header .search-box{
     flex: 1;
     position: relative;
 }
+
 .search-box{
   margin-right: 2rem;
 }
@@ -129,7 +132,7 @@ header a{
 header a:hover{
     border-bottom: 2px solid cadetblue;
 }
-
+/*-----------button dropdown in navbar-----------------*/
 button.dropbtn {
   background-color: #1b2021;
   padding: 0;
@@ -166,7 +169,6 @@ button.dropbtn {
   font-weight: 700;
 
 }
-
 .dropdown-content a:hover {background-color: #111;}
 
 .dropdown:hover .dropdown-content {display: block;}

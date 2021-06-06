@@ -7,7 +7,7 @@
 body{
 background-color: #f58634;
 
-
+/*---------accessability button -------------------*/
 }
 .js-font2 {
   background-color: #04009a;
@@ -36,6 +36,8 @@ background-color: #f58634;
   border-radius: 10px;
   font-weight: 700;
 }
+
+/*--------header and search bar ------------------*/
 header{
   background-color: #1b2021;
     width:100%;
@@ -104,45 +106,7 @@ header a{
 header a:hover{
     border-bottom: 2px solid cadetblue;
 }
-
-button.dropbtn {
-background-color: #1b2021;
-
-  padding: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-.dropbtn i{
-  position: relative;
-  top: -1rem;
-  font-size: 1.6rem;
-}
-.dropdown-content {
-  background-color: #fff;
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  font-size: 25px;
-  right:0.5rem;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
+/*---------card container---------------*/
 section {
   position: relative;
   min-height: 100vh;
@@ -171,6 +135,7 @@ section .heading:before {
 section .heading b {
   color: #fff;
 }
+/*-------body card----------------*/
 .wrapper {
   margin: 7rem 0;
   width: 100%;
@@ -197,6 +162,45 @@ section .heading b {
   width: 100%;
   display: block;
 }
+h1.price {
+  color: green;
+  font-size: 22px;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+}
+
+/*--------card design----------------------*/
+.wrapper .container .profile h2 {
+  padding: 5px 0;
+  text-transform: capitalize;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.wrapper .container p {
+  margin-top: 50px;
+  color: #fff;
+  padding: 0 8px;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.wrapper .container .social {
+  width: 100%;
+}
+.wrapper .container .social i {
+  font-size: 1.2em;
+  color: #fff;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.wrapper .container .social i:hover {
+  background: #3b7cf5;
+}
+
+/*-------image ---------------*/
+
 .wrapper .container .profile .imgBox {
   position: relative;
   height: 200px;
@@ -220,46 +224,8 @@ section .heading b {
   filter: saturate(140%);
   transform: scale(0.95);
 }
-.wrapper .container .profile h2 {
-  padding: 5px 0;
-  text-transform: capitalize;
-  color: #fff;
-  letter-spacing: 1px;
-  text-align: center;
-}
-.wrapper .container p {
-  margin-top: 50px;
-  color: #fff;
-  padding: 0 8px;
-  font-size: 15px;
-  opacity: 0.8;
-}
-.wrapper .container .left {
-  font-size: 30px;
-  display: block;
-  text-align: left;
-  color: #3b7cf5;
-}
-.wrapper .container .right {
-  font-size: 30px;
-  display: block;
-  text-align: right;
-  color: #3b7cf5;
-}
-.wrapper .container .social {
-  width: 100%;
-}
-.wrapper .container .social i {
-  font-size: 1.2em;
-  color: #fff;
-  padding: 8px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 4px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
-}
-.wrapper .container .social i:hover {
-  background: #3b7cf5;
-}
+
+/*--------ad to card button-------------*/
 .btn {
   border: none;
   outline: 0;
@@ -295,10 +261,4 @@ section .heading b {
 .btn1:hover {
   background-color: #ec4646;
   color:white;
-}
-h1.price {
-  color: green;
-  font-size: 22px;
-  margin-top: 10rem;
-  margin-bottom: 1rem;
 }
